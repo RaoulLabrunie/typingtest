@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(63, 63, 63);
+}
+
+#countdown {
+  position: absolute;
+  font-size: 25px;
+  top: 30%;
+  left: 15%;
+  color: rgb(238, 161, 67);
+}
+
+#results {
+  display: flex;
+  position: absolute;
+  font-size: 35px;
+  font-weight: bolder;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  color: rgb(51, 255, 0);
+}
+
+#wpm {
+  margin-right: 15px;
+}
+
+#precision {
+  margin-left: 15px;
+}
+
+#words {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 70%;
+  height: 20%;
+
+}
+
+#reloadParraf {
+  position: absolute;
+  bottom: 30%;
+  right: 15%;
+  margin: 10px;
+  border: 1px, solid, #f59b9b;
+  transition: .6, ease;
+  border-radius: 2px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: #f59b9b;
+    color: white;
+  }
+}
